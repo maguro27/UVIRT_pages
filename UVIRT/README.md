@@ -1,0 +1,6 @@
+# Adversarial Knowledge Distillation for a Compact Generator
+
+## Our project page -> [AKDG](https://maguro27.github.io/AKDG/)
+
+### Abstract
+In this paper, we propose memory-efficient Generative Adversarial Nets (GANs) in line with knowledge distillation. Most existing GANs have a shortcoming in terms of the number of model parameters and low processing speed. Here, to tackle the problem, we propose Adversarial Knowledge Distillation for Generative models (AKDG) for highly efficient GANs, in terms of unconditional generation. Using AKDG, model size and processing speed are substantively reduced. Through an adversarial training exercise with a distillation discriminator, a student generator successfully mimics a teacher generator in fewer model layers and fewer parameters and at a higher processing speed. Moreover, our AKDG is network architecture-agnostic. Comparison of AKDG-applied models to vanilla models suggests that it achieves closer scores to a teacher generator and more efficient performance than a baseline method with respect to Inception Score (IS) and Frechet Inception Distance (FID). In CIFAR-10 experiments, improving IS/FID 1.17pt/55.19pt and in LSUN bedroom experiments, improving FID 71.1pt in comparison to the conventional distillation method for GANs.

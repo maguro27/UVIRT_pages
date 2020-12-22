@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UVIRT—Unsupervised Virtual Try-on Using Disentangled Clothing and Person Features</title>
+    <link rel="stylesheet" type="text/css" href="./pvg.css">
+    <link rel="shortcut icon" type="image/png" href="./img/cc_logo_1_crop.png">
+</head>
+
+<body>
+    <script type="text/javascript" src="./header.js"></script>
+
+    <style>
+        a.myclass {
+            color: #DE382D;
+            text-decoration: underline
+        }
+    </style>
+
+    <style>
+        a.link {
+            text-decoration: underline
+        }
+    </style>
+
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                <h1 align="center" style="font-size: 30pt;"><b>UVIRT—Unsupervised Virtual Try-on <br> Using Disentangled
+                        Clothing and Person Features</b></h1><br />
+            </div>
+        </div>
+    </header>
+
+    <h2>Abstract</h2>
+    <p>
+        Virtual Try-on is the ability to realistically superimpose clothing onto a target person. Due to its importance
+        to the multi-billion dollar e-commerce industry, the problem has received significant attention in recent years.
+        To date, most virtual try-on methods have been supervised approaches, namely using annotated data, such as
+        clothes parsing semantic segmentation masks and paired images. These approaches incur a very high cost in
+        annotation. Even existing weakly-supervised virtual try-on methods still use annotated data or pre-trained
+        networks as auxiliary information and the costs of the annotation are still significantly high. Plus, the
+        strategy using pre-trained networks is not appropriate in the practical scenarios due to latency. In this paper
+        we propose Unsupervised VIRtual Try-on using disentangled representation (UVIRT). After UVIRT extracts a clothes
+        and a person feature from a person image and a clothes image respectively, it exchanges a clothes and a person
+        feature. Finally, UVIRT achieve virtual try-on. This is all achieved in an unsupervised manner so UVIRT has the
+        advantage that it does not require any annotated data, pre-trained networks nor even category labels. In the
+        experiments, we qualitatively and quantitatively compare between supervised methods and our UVIRT method on the
+        MPV dataset (which has paired images) and on a Consumer-to-Consumer (C2C) marketplace dataset (which has
+        unpaired images). As a result, UVIRT outperform the supervised method on the C2C marketplace dataset, and
+        achieve comparable results on the MPV dataset, which has paired images in comparison with the conventional
+        supervised method.
+    </p>
+
+    <br>
+    <h2>Paper</h2>
+    <ul>
+        <a href="https://scholar.google.com/citations?user=ZZvzcpAAAAAJ&hl=ja" class="">Hideki Tsunashima</a>,
+        <a href="https://scholar.google.com/citations?user=3bLwkJAAAAAJ&hl=en" class="">Kosuke Arase</a>,
+        <a href="https://antonylam.github.io/" class="">Antony Lam</a>,
+        <a href="http://hirokatsukataoka.net/" class="">Hirokatsu Kataoka</a>,
+        <b>UVIRT—Unsupervised Virtual Try-on Using Disentangled Clothing and Person Features.</b> <br>
+        Sensors, 2020. (Code will be available soon. Probably, until March 2021.)<br>
+        <a href="" class="myclass">[paper]</a>
+        &nbsp;&nbsp; <a href="" class="myclass">[bibtex]</a>
+        <!--&nbsp;&nbsp; <a href="Im2Pano3D_talk.pdf"  class="myclass">[slide(.pdf)]</a> -->
+    </ul>
+
+    <br><br><br>
+    <center>
+        <img src="./img/Figure1.png" style="width: 100%;" />
+    </center>
+
+    <br><br><br>
+    <h2>Example Results</h2>
+
+    <center><img src="./img/Figure3_a.png" style="width: 100%;" vspace="20" /></center>
+
+    <br><br><br>
+    <center><img src="./img/Figure3_b.png" style="width: 100%;" vspace="20" /></center>
+
+    <br><br><br>
+    <center><img src="./img/Figure3_c.png" style="width: 100%;" vspace="20" /></center>
+
+
+    <br><br><br>
+    <script type="text/javascript" src="./footer.js"></script>
+</body>
+
+</html>
